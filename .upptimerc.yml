@@ -31,13 +31,14 @@ status-website:
   # cname: api.agilizei.com
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /status-agilizei
-  logoUrl: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png?w=50
-  name: Api.agilizei Status
+  logoUrl: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png?w=80
+  icon: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png?w=32
+  name: ServeRest Agilizei Status
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: ServeRest
+      href: https://github.com/ServeRest
 
 workflowSchedule:
   graphs: "0 */12 * * *"
