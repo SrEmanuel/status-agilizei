@@ -31,7 +31,7 @@ status-website:
   # cname: api.agilizei.com
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /$REPO
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png?w=50
   name: Api.agilizei Status
   navbar:
     - title: Status
