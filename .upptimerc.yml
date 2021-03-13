@@ -1,39 +1,47 @@
 # Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your GitHub repository name
+owner: ServeRest # Your GitHub username
+repo: status-agilizei # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
-    method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
-  - name: TCP ping
-    url: 1.1.1.1
+  - name: api.agilizei.com/
+    url: http://api-agilizei-com.umbler.net/
+    maxResponseTime: 1500
+  - name: API /usuarios
+    url: http://api-agilizei-com.umbler.net/usuarios
+    headers:
+      - "monitor: uptime"
+    maxResponseTime: 600
+  - name: API /carrinhos
+    url: http://api-agilizei-com.umbler.net/carrinhos
+    headers:
+      - "monitor: uptime"
+    maxResponseTime: 600
+  - name: API /produtos
+    url: http://api-agilizei-com.umbler.net/produtos
+    headers:
+      - "monitor: uptime"
+    maxResponseTime: 600
+
+assignees:
+  - PauloGoncalvesBH
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
+  # cname: api.agilizei.com
   # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
+  baseUrl: /$REPO
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Api.agilizei Status
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+workflowSchedule:
+  graphs: "0 */12 * * *"
+  uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
