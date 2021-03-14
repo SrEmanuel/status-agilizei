@@ -32,7 +32,7 @@ status-website:
   # Uncomment the following line if you don't have a custom domain and add your repo name
   baseUrl: /status-agilizei
   logoUrl: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png
-  icon: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png
+  icon: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Status - ServeRest no Agilizei
   navbar:
     - title: Status
