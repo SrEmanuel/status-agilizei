@@ -28,9 +28,9 @@ assignees:
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  # cname: api.agilizei.com
+  cname: serverest-status.agilizei.com
   # Uncomment the following line if you don't have a custom domain and add your repo name
-  baseUrl: /status-agilizei
+  # baseUrl: /status-agilizei
   logoUrl: https://agilizei.files.wordpress.com/2020/08/cropped-agilizei.png
   icon: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Status - ServeRest no Agilizei
