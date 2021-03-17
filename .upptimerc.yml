@@ -5,20 +5,20 @@ repo: status-agilizei # Your Github repository name
 # Add your sites here
 sites:
   - name: api.agilizei.com/
-    url: http://api-agilizei-com.umbler.net/
+    url: http://serverest-api-agilizei-com.umbler.net/
     maxResponseTime: 1500
   - name: API /usuarios
-    url: http://api-agilizei-com.umbler.net/usuarios
+    url: http://serverest-api-agilizei-com.umbler.net/usuarios
     headers:
       - "monitor: uptime"
     maxResponseTime: 600
   - name: API /carrinhos
-    url: http://api-agilizei-com.umbler.net/carrinhos
+    url: http://serverest-api-agilizei-com.umbler.net/carrinhos
     headers:
       - "monitor: uptime"
     maxResponseTime: 600
   - name: API /produtos
-    url: http://api-agilizei-com.umbler.net/produtos
+    url: http://serverest-api-agilizei-com.umbler.net/produtos
     headers:
       - "monitor: uptime"
     maxResponseTime: 600
