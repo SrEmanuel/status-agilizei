@@ -1,7 +1,7 @@
 url: http://serverest-api-agilizei-com.umbler.net/
-status: up
+status: degraded
 code: 200
-responseTime: 796
-lastUpdated: 2021-03-24T23:29:30.477Z
+responseTime: 1955
+lastUpdated: 2021-03-25T13:41:47.736Z
 startTime: Sat Mar 13 2021 23:40:14 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
