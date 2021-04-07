@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 1503,
     "timeDay": 966,
-    "timeWeek": 938,
+    "timeWeek": 931,
     "timeMonth": 1503,
     "timeYear": 1503,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 429,
     "timeDay": 194,
-    "timeWeek": 793,
+    "timeWeek": 158,
     "timeMonth": 429,
     "timeYear": 429,
     "dailyMinutesDown": {}
@@ -48,7 +48,7 @@
     "uptimeYear": "100.00%",
     "time": 223,
     "timeDay": 196,
-    "timeWeek": 174,
+    "timeWeek": 162,
     "timeMonth": 223,
     "timeYear": 223,
     "dailyMinutesDown": {}
@@ -58,17 +58,17 @@
     "url": "http://serverest-api-agilizei-com.umbler.net/produtos",
     "icon": "https://favicons.githubusercontent.com/serverest-api-agilizei-com.umbler.net",
     "slug": "api-produtos",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 310,
-    "timeDay": 188,
-    "timeWeek": 562,
-    "timeMonth": 310,
-    "timeYear": 310,
+    "time": 334,
+    "timeDay": 833,
+    "timeWeek": 272,
+    "timeMonth": 334,
+    "timeYear": 334,
     "dailyMinutesDown": {}
   }
 ]
