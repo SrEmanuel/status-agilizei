@@ -58,17 +58,17 @@
     "url": "http://serverest-api-agilizei-com.umbler.net/produtos",
     "icon": "https://favicons.githubusercontent.com/serverest-api-agilizei-com.umbler.net",
     "slug": "api-produtos",
-    "status": "degraded",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 334,
-    "timeDay": 833,
-    "timeWeek": 272,
-    "timeMonth": 334,
-    "timeYear": 334,
+    "time": 331,
+    "timeDay": 618,
+    "timeWeek": 265,
+    "timeMonth": 331,
+    "timeYear": 331,
     "dailyMinutesDown": {}
   }
 ]
