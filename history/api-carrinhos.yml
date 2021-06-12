@@ -1,7 +1,7 @@
 url: http://serverest-api-agilizei-com.umbler.net/carrinhos
-status: down
-code: 503
-responseTime: 233
-lastUpdated: 2021-06-12T06:43:47.234Z
+status: up
+code: 200
+responseTime: 147
+lastUpdated: 2021-06-12T07:02:01.611Z
 startTime: Sat Mar 13 2021 23:40:17 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
